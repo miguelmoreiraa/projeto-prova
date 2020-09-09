@@ -41,7 +41,7 @@ public class JogadorProdutividade extends Jogador {
                 "salario=" + salario +
                 ", quantidadeDeGols=" + quantidadeDeGols +
                 ", quantidadeDeJogos=" + quantidadeDeJogos +
-                ", total de sálario" + calculaSalario() +
+                ", total de sálario: " + calculaSalario() +
                 "} " + super.toString();
     }
 }
