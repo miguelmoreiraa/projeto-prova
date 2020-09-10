@@ -23,8 +23,8 @@ public class JogadorMensal extends Jogador {
 
     @Override
     public String toString() {
-        return "JogadorMensal: \n" +
-                "\n salario=" + calculaSalario() +
+        return "JogadorMensal:" +
+                "salario=" + calculaSalario() +
                 " " + super.toString();
     }
 
